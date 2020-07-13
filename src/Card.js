@@ -1,10 +1,9 @@
 import React from 'react';
 
-var Card = (props) => {
+var Card = ({name, email, id}) => {
 
 	{/* the following line uses "destructuring"
 	to avoid using "props" in src, <h2> and <p> */}
-	var	{name, email, id} = props;
 
     return (
         <div className='bg-light-green dib br3 pa3 ma3 grow bw2 shadow-5'>
