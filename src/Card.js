@@ -2,9 +2,6 @@ import React from 'react';
 
 var Card = ({name, email, id}) => {
 
-	{/* the following line uses "destructuring"
-	to avoid using "props" in src, <h2> and <p> */}
-
     return (
         <div className='bg-light-green dib br3 pa3 ma3 grow bw2 shadow-5'>
             <img 	src={`https://robohash.org/${id}?200x200`}
